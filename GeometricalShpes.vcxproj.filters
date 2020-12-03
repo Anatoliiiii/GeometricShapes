@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Triangle">
+      <UniqueIdentifier>{634ed183-1784-47f1-b7ff-dc9c7a50466e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Circle">
+      <UniqueIdentifier>{53edd472-a24f-41d5-aba1-817bd811adac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Squad">
+      <UniqueIdentifier>{2c2d551d-5a63-4926-b415-7bf4bb055f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Rectengle">
+      <UniqueIdentifier>{0581c77a-f9a4-4a6a-b461-7a98b73c4faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\AllTesst">
+      <UniqueIdentifier>{08783217-39a1-4676-9915-eeea425a7fbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Исходные файлы\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Исходные файлы\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Исходные файлы\Squad</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Исходные файлы\Rectengle</Filter>
+    </ClCompile>
+    <ClCompile Include="AllTests.cpp">
+      <Filter>Исходные файлы\AllTesst</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triangle.hpp">
+      <Filter>Исходные файлы\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.hpp">
+      <Filter>Исходные файлы\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.hpp">
+      <Filter>Исходные файлы\Squad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.hpp">
+      <Filter>Исходные файлы\Rectengle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
